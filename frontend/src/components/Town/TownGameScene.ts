@@ -421,7 +421,8 @@ export default class TownGameScene extends Phaser.Scene {
         font: '18px monospace',
         color: '#000000',
         // padding: {x: 20, y: 10},
-        backgroundColor: '#ffffff',
+        // avatar background color can be changed here! - CS490 IP0
+        backgroundColor: '#f6a5ff',
       })
       .setDepth(6);
     this.coveyTownController.ourPlayer.gameObjects = {
